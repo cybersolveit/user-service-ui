@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Component from './components/Component';
+import CsForm from './components/CsForm';
+import CsNav from './components/Nav';
+
+
+// one component I can reuse as may times I want
 
 function App() {
+  // 
+
+    
+    // <div>
+    // <h1>This is app component</h1>
+    
+
+    // <Component/>
+    
+    // </div>
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+    <div>
+    <CsNav/>
+      <h1>This is React</h1>
+        <Component/>
+<CsForm/>
+
     </div>
+   
+   
+  
   );
 }
 
