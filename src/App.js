@@ -21,9 +21,9 @@ function App() {
   return (
   
     <div>
-    <CsNav/>
-      <h1>This is React</h1>
-        <Component/>
+     <CsNav/>
+      {/* <h1>This is React</h1> *
+        <Component/> */}
 <CsForm/>
 
     </div>
