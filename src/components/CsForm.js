@@ -67,7 +67,7 @@ export default function () {
       <Row>
         <Col md={{ span: 6, offset: 3 }}>
 
-<h1>Form to Add User by jobi</h1>
+<h1>Form to Add User by Jobi Jose</h1>
 
 {results.success&&
 
